@@ -8,11 +8,6 @@ import edu.pitt.sis.exp.colfusion.utils.ConfigManager;
 import edu.pitt.sis.ext.colfusion.docker.utils.containerProviders.AbstractDockerContainerProvider;
 import edu.pitt.sis.ext.colfusion.docker.utils.containers.AbstractDockerContainer;
 
-/**
- * 
- * @author Evgeny
- *
- */
 public class DockerContainerFactory {
 	
 	static ColfusionDockerClient dockerClient = new ColfusionDockerClient(ConfigManager.getInstance().getProperies());
